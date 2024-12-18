@@ -1,10 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body { 
+  background: url(DALL·E\ 2024-12-16\ 12.25.02\ -\ A\ visually\ captivating\ website\ background\ designed\ for\ a\ modern\,\ clean\,\ and\ professional\ aesthetic.\ The\ image\ features\ a\ soft\ gradient\ transitioning\ f.webp);
+    font-family: roboto;
     margin: 0;
     padding: 0;
   }
   header, footer {
-    background-color: #333;
+    
     color: white;
     padding: 20px;
     text-align: center;
@@ -20,6 +24,11 @@ body {
   nav a {
     color: white;
     text-decoration: none;
+    margin: 0 10px;
+  }
+  nav a:hover{
+
+    text-decoration: underline;
   }
   section {
     padding: 50px;
